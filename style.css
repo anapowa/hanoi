@@ -1,0 +1,60 @@
+:root{
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {    
+    color: rgb(53, 176, 233);
+}
+
+#game {
+    background-color: midnightblue;
+    height: 500px;
+    display: flex;
+    text-align: center;
+    border-style: ridge;
+    border-radius: 15%;
+}
+
+.tower {
+    border-left: 1px dashed blue;
+    border-right: 1px dashed blue;
+
+    border-radius: 20%;
+
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.disc {
+    height: 100px;
+    border: 1px solid #345;
+    border-radius:40%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#disc1 {
+    width: 60%;
+    background-color: rgb(194, 248, 244);
+}
+
+#disc2 {
+    width: 70%;
+    background-color: rgb(129, 230, 248);
+}
+
+#disc3 {
+    width: 80%;
+    background-color: rgb(55, 136, 243);
+}
+
+#disc4 {
+    width: 90%;
+    background-color: rgb(76, 4, 243);
+}
