@@ -70,3 +70,8 @@ margin: 0;
 padding: 0;
 color: rgb(89, 153, 196)
 }
+
+.selected {
+    opacity: 80%;
+    box-shadow: 10px 5px 5px rgb(120, 120, 250), -10px -5px 5px rgb(120, 120, 250);
+}
