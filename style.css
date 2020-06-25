@@ -1,14 +1,15 @@
 :root{
     box-sizing: border-box;
+    background-color: black;
 }
 
 body {
-    text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1 {    
-    color: rgb(53, 176, 233);
+    text-align: center;
+    color: rgb(68, 165, 230);
 }
 
 #game {
@@ -40,21 +41,32 @@ h1 {
 }
 
 #disc1 {
-    width: 60%;
-    background-color: rgb(194, 248, 244);
+    width: 50%;
+    background-color: rgb(202, 248, 245);
 }
 
 #disc2 {
-    width: 70%;
-    background-color: rgb(129, 230, 248);
+    width: 65%;
+    background-color: rgb(129, 177, 248);
 }
 
 #disc3 {
     width: 80%;
-    background-color: rgb(55, 136, 243);
+    background-color: rgb(58, 55, 243);
 }
 
 #disc4 {
-    width: 90%;
-    background-color: rgb(76, 4, 243);
+    width: 95%;
+    background-color: rgb(93, 3, 145);
+}
+
+#instructions {
+    text-align: left;
+    color: rgb(40, 131, 173);
+}
+
+h3{
+margin: 0;
+padding: 0;
+color: rgb(89, 153, 196)
 }

@@ -8,17 +8,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Tower of Hanoi</h1>
+
+    <section id="instructions">
+        <h1>Tower of Hanoi</h1>
+        <h3>Instructions:</h3> 
+        <ol>
+                <li>Click on a section to pick up a disc.</li>
+                <li>Click on a different section to drop the disc.</li>
+                <li>Repeat until all the discs have been moved to the right-most section.</li>
+            </ol>
+
+        <h3>Rules:</h3>
+        <ul>
+            <li>Only one disc can be moved at a time. </li>
+            <li>Only upper disc from one of the stacks can be moved by placing it on top of another stack.</li>
+            <li>No disk can be placed on top of a smaller disk</li>
+        </ul>
+    </section>
+
     <div id="game">
-        <div class="tower" id="tower1">
-            <div class="disc" id="disc4" data-width="4"></div>
-            <div class="disc" id="disc3" data-width="3"></div>
-            <div class="disc" id="disc2" data-width="2"></div>
-            <div class="disc" id="disc1" data-width="1"></div>
+        <div class="tower" id="tower1" data-width="0">
+            <div class="disc" id="disc4" data-width="1"></div>
+            <div class="disc" id="disc3" data-width="2"></div>
+            <div class="disc" id="disc2" data-width="3"></div>
+            <div class="disc" id="disc1" data-width="4"></div>
 
         </div>
-        <div class="tower" id="tower2"></div>
-        <div class="tower" id="tower3"></div>
+        <div class="tower" id="tower2" data-width="0"></div>
+        <div class="tower" id="tower3" data-width="0"></div>
 
     </div>
 
