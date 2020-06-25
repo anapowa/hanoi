@@ -27,7 +27,7 @@ const clickTower = function (evt) {
             tower.append(selectedDisc)
             selectedDisc.classList.remove("selected")
         } else {
-            alert ("Invalid move! Disc can't be placed on top of a smaller one. Please place on a different tower.")
+            alert ("Invalid move! Disc can't be placed on top of a smaller one. Please place on a different section.")
             mode = "drop"
         }
     }
