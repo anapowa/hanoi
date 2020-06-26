@@ -1,4 +1,12 @@
-PURPOSE: Create "game pieces" that follow a set of rules:
+GITLAB PAGE: 
+https://anapowa.gitlab.io/hanoi 
+
+TEAM:
+ANA RUIZ TOVAR
+CHRIS STRANGER
+
+PURPOSE: 
+Create "game pieces" that follow a set of rules:
 1. only one disk can be moved at a time.
 2. Only upper disk from one of the stacks can be moved by placing it on top of another stack. 
 3. No disk can be placed on top of a smaller disk. 
