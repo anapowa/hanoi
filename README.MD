@@ -7,7 +7,7 @@ DEVELOPMENT PLAN
 1. Move a game piece at a time from one tower to a different tower. 
     1. make 4 containers of different sizes/colors
         1. create divs for each with data attributes of different values. 
-            - <div id=“disc1” data-width=“1”></div>
+            - id=“disc1” data-width=“1”
             1. Use query selector to access data in DOM
         2. Have a click handler on each tower
     

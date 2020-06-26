@@ -41,22 +41,22 @@ h1 {
 }
 
 #disc1 {
-    width: 50%;
+    width: 35%;
     background-color: rgb(202, 248, 245);
 }
 
 #disc2 {
-    width: 65%;
+    width: 50%;
     background-color: rgb(129, 177, 248);
 }
 
 #disc3 {
-    width: 80%;
+    width: 65%;
     background-color: rgb(58, 55, 243);
 }
 
 #disc4 {
-    width: 95%;
+    width: 80%;
     background-color: rgb(93, 3, 145);
 }
 
